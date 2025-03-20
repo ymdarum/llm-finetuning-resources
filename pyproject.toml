@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "llm-finetuning-resources"
+version = "0.1.0"
+description = ""
+authors = ["WoutVossen <vossen.w@hotmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+modal = "^0.73.112"
+datasets = "^3.4.1"
+llama-cpp-python = "^0.3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
