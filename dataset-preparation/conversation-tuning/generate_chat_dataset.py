@@ -10,6 +10,9 @@ from groq import Groq
 """
 This is a script I used to generate conversations based on a dataset of essays.
 I then used these conversations to finetune a model that should resemble Paul Graham.
+
+All essays:
+
 """
 
 # Set up logging
