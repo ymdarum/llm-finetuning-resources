@@ -12,10 +12,9 @@ Ollama Modelfile docs:
 https://github.com/ollama/ollama/blob/main/docs/modelfile.md
 
 Meta llama3 template:
-
 https://ollama.com/library/llama3/blobs/8ab4849b038c
 
-Chat template(llama3)
+Example modelfile for llama-3.0:
 ```
 FROM pg_chat.Q4_0.gguf
 
